@@ -15,10 +15,9 @@ source:
 build:
   number: 0
   script:
-    env:
-      CMAKE_GENERATOR: Ninja
-    content:
-      - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+    - if: unix
+      then: export CMAKE_GENERATOR=Ninja
+    - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   build:
