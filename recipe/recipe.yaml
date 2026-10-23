@@ -43,7 +43,7 @@ requirements:
       then: libgomp
     - if: osx
       then: llvm-openmp
-    - numpy >=2.0
+    - numpy
     - nanobind >=2.0
     - scikit-build-core >=0.10
     - setuptools-scm >=8
