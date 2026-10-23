@@ -283,5 +283,6 @@ Feedstock Maintainers
 
 * [@jgaboardi](https://github.com/jgaboardi/)
 * [@knaaptime](https://github.com/knaaptime/)
+* [@martinfleis](https://github.com/martinfleis/)
 * [@sjsrey](https://github.com/sjsrey/)
 
